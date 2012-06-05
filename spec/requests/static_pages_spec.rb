@@ -20,7 +20,7 @@ describe "Static pages" do
 
   describe "Help page" do
 
-    it "should have the h1 'Help'" do
+    it "should have the h1 'Hel'" do
       visit '/static_pages/help'
       page.should have_selector('h1', :text => 'Help')
     end
